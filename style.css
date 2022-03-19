@@ -221,12 +221,26 @@ a{
     margin: 8px;
 }
 
+.formacao-academica .experiencia:nth-child(3n + 1){
+
+    margin: 8px 8px 8px 0;
+}
+
+.formacao-academica .experiencia:nth-child(3n){
+
+    margin: 8px 0 8px 8px;
+}
+
 .formacao-academica .itens .item{
     width: 368px;
     height: 286px;
     align-items: center;
     justify-content: center;
     margin: 0 0 8px 0;
+}
+
+.formacao-academica .imagem {
+    width: 60%;
 }
 
 .experiencia .curso{
@@ -241,3 +255,70 @@ a{
     font-weight: medium;
 }
 
+.projetos .container .titulo{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    padding-top: 32px;
+}
+
+.projetos .container{
+    max-width: 1136px;
+    width:100%;
+    margin: 0 auto;
+}
+.projetos .projeto {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.projetos .projeto:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+
+.projeto .imagem {
+    width: 70%;
+    margin: 0 10px;
+    order: 0;
+}
+
+.projetos .conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    justify-content: center;
+}
+
+.projeto .conteudo p{
+    margin-bottom: 8px;
+}
+
+.projetos .conteudo p:first-child{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.botao {
+    height: 51px;
+    padding: 16px;
+    margin-right: 16px;
+}
+
+.tipo1 {
+    background-color: #F5F5F5;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: #2A7AE4;
+    color:#2A7AE4;
+    
+}
+
+.tipo2 {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: 0;
+}
