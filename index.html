@@ -216,21 +216,37 @@
             </section>
 
             <section class="contato background-azul">
-                <form>
-                    <h3>Contato</h3>
-                    <p>Quer entrar em contato comigo?</p>
-                    <p>Preencha o formulário abaixo e entrarei em cotato o mais rápido possível.</p>
-                    <p>Nome</p>
-                    <input>
-                    <p>E-mail</p>
-                    <input>
-                    <p>Assunto</p>
-                    <input>
-                    <p>Mensagem</p>
-                    <input>
-                    <button>Enviar Mensagem</button>
-                    <button>Veja Meu Currículo</button>
-                </form>
+                <div class="container">
+                    <img class="imagem" src="image/Phone.png">
+                    <form class="formulario">
+                        <h3 class="titulo">Contato</h3>
+                        <p class="conteudo-titulo">Quer entrar em contato comigo?
+                            <br> Preencha o formulário abaixo e entrarei em cotato o mais rápido possível.
+                        </p>
+                        
+                        <div class="campo-flex">
+                            <p class="conteudo">Nome</p>
+                            <input class="entrada-texto" placeholder="Nome Completo">
+                        </div>
+
+                        <div class="campo-flex">
+                            <p class="conteudo">E-mail</p>
+                            <input  class="entrada-texto" type="email" placeholder="email@mail.com.br">
+                        </div>
+
+                        <div  class="campo-flex">
+                            <input class="entrada-texto campo-assunto" type="text" placeholder="Assunto">
+                        </div>
+
+                        <div  class="campo-flex">
+                            <textarea class="entrada-texto campo-mensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="botoes">
+                            <button class="botao tipo2">Enviar Mensagem</button>
+                            <button class="botao tipo1">Veja Meu Currículo</button>
+                        </div>
+                    </form>
+                </div>
             </section>
 
         </main>

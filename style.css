@@ -322,3 +322,71 @@ a{
     color: #FFFFFF;
     border: 0;
 }
+
+
+.contato .container {
+    max-width: 1136px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 128px 0 64px 0;
+    
+}
+
+.contato .imagem {
+    width: 40%;
+    margin-right: 16px;
+}
+
+.contato .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contato .formulario .titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.contato .formulario .conteudo-titulo {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.contato .formulario .campo-flex {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 8px 12px;
+    margin: 16px 0;
+}
+
+.contato .campo-flex .conteudo{
+    font-size: 12px;
+    color: #A2A2A2;
+}
+
+.contato .campo-flex .entrada-texto{
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contato .campo-flex .entrada-texto ::-webkit-input-placeholder{
+    color: #A2A2A2;
+    font-weight: normal;
+}
+
+.campo-flex .campo-assunto{
+    margin: 16px 0;
+}
+
+.campo-flex .campo-mensagem{
+    height: 133px;
+    font-size: 16px;
+}
